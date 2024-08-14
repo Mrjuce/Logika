@@ -68,7 +68,7 @@ lb_Correct = QLabel("")                             #Текст правильн
 
 layout_res = QBoxLayout()
 layout_res.addWidget(lb_Result, alignment=(Qt.AlignLeft | Qt.AlignTop))
-layout_res.addWidget(lb_Result, alignment=Qt.AlignHCenter | stretch=2)
+layout_res.addWidget(lb_Result, alignment=Qt.AlignHCenter, stretch=2)
 AnsGroupBox.setLayout(layout_res)
 AnsGroupBox.hide()                                   #можна приховати віджет
 
